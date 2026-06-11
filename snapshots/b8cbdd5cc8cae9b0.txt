@@ -1,0 +1,44 @@
+Security
+Secure access to data in Kinetica
+Topics
+Security Concepts
+User Security
+Role Security
+Permissions
+Security Usage
+User Management
+Role Management
+Permission Management
+Security Configuration
+HTTPD
+HTTPD + SSL
+HTTPD + External Authentication
+HTTPD + SSL + External Authentication
+SQL Security
+User Management
+Role Management
+Privilege Management
+Security Check
+Impersonation
+Reveal Security
+Authentication
+Users
+Roles
+Permissions
+Changing the Administrator Password
+Product Highlights
+Role-based Access Control
+Grant users access to data and data services with role-based permissions
+Granular Permissions
+Grant access to individual tables, schemas, and other database objects
+Row & Column Security
+Control access to sensitive data within tables with masking, obfuscation, or by disallowing access
+View all guides
+How-To Guides
+Quick Start Guide
+Get started with Kinetica Workbench
+Length: 15 MIN
+Next Steps
+Now that you are familiar with Kinetica's SQL capabilities, here are a few resources to check out next:
+SQL
+Reveal

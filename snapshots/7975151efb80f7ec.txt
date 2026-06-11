@@ -1,0 +1,45 @@
+API
+Code with Kinetica
+Topics
+API Concepts
+Connecting via API
+API Compatibility Matrix
+Dynamic Schemas
+Native APIs
+C++
+C#
+Java
+JavaScript
+Node.js
+Python
+REST
+Product Highlights
+Popular API Languages
+Connect to Kinetica with REST, C++, C#, Java, JavaScript, Node.js, & Python
+Step-by-Step Tutorials
+Guides for each language to get you up and running faster
+View all guides
+How-To Guides
+Quick Start Guide
+Get started with Kinetica Workbench
+Length: 15 MIN
+Java Developer Guide
+Step-by-step instructions on writing Java applications with Kinetica
+Length: 30 MIN
+Python Developer Guide
+Step-by-step instructions on writing Python applications with Kinetica
+Length: 30 MIN
+JavaScript Developer Guide
+Step-by-step instructions on writing JavaScript applications with Kinetica
+Length: 30 MIN
+C++ Developer Guide
+Step-by-step instructions on writing C++ applications with Kinetica
+Length: 30 MIN
+Node.js Developer Guide
+Step-by-step instructions on writing Node.js applications with Kinetica
+Length: 30 MIN
+Next Steps
+Now that you are familiar with Kinetica's APIs, here are a few resources to check out next:
+Tools
+Connectors
+SQL

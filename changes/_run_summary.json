@@ -1,0 +1,13 @@
+{
+  "run": "2026-06-11T12-08-51Z",
+  "checked": 5,
+  "changed": [],
+  "new_pages": [
+    "https://docs.kinetica.com/7.2/",
+    "https://docs.kinetica.com/7.2/sql/query/",
+    "https://docs.kinetica.com/7.2/api/",
+    "https://docs.kinetica.com/7.2/api/rest/",
+    "https://docs.kinetica.com/7.2/security/"
+  ],
+  "errors": []
+}

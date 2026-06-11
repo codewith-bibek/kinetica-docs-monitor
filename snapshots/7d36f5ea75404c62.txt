@@ -1,0 +1,399 @@
+REST API
+Feature Name
+Description
+/admin/add/host
+Adds a host to the cluster.
+/admin/add/ranks
+Add new ranks to the Kinetica cluster.
+/admin/alter/host
+Alter properties on a host currently in the cluster.
+/admin/alter/jobs
+Alter a job.
+/admin/backup/begin
+Prepares the system for a backup operation.
+/admin/backup/end
+End system backup mode.
+/admin/ha/offline
+Pauses consumption of messages from other HA clusters.
+/admin/ha/refresh
+Restarts HA to handle breaking conf changes.
+/admin/offline
+Take the system offline.
+/admin/rebalance
+Rebalance data and/or shards across all nodes in a cluster.
+/admin/remove/host
+Removes a host from the cluster.
+/admin/remove/ranks
+Remove rank(s) from the Kinetica cluster.
+/admin/repair/table
+Manually repair a corrupted table.
+/admin/send/alert
+Send an alert to the monitoring system.
+/admin/show/alerts
+Show a list of generated alerts.
+/admin/show/cluster/operations
+Show cluster operations (add/remove ranks or rebalance) status.
+/admin/show/jobs
+Show the current jobs in GPUdb.
+/admin/show/shards
+Show the mapping of the shards to the ranks.
+/admin/shutdown
+Stop the database server application.
+/admin/switchover
+Manually switch over one or more processes to another host.
+/admin/verifydb
+Verify database is in a consistent state.
+/aggregate/convexhull
+Calculate and return the convex hull for a dataset.
+/aggregate/groupby
+Calculate unique combinations of values for the given columns in a given dataset.
+/aggregate/histogram
+Perform a histogram calculation given a table, column, and interval function.
+/aggregate/kmeans
+Run the k-means algorithm on a dataset.
+/aggregate/minmax
+Calculate the min and max values of a column in a dataset.
+/aggregate/minmax/geometry
+Calculate the min and max x- and y- coordinates of a geospatial geometry column in a dataset.
+/aggregate/statistics
+Calculate statistics of a dataset.
+/aggregate/statistics/byrange
+Divide a dataset into bins and calculate statistics of the values.
+/aggregate/unique
+Find unique values in a column.
+/aggregate/unpivot
+Rotate column values into rows values.
+/alter/backup
+Alter a database backup.
+/alter/credential
+Alter an existing credential.
+/alter/datasink
+Alter an existing data sink.
+/alter/datasource
+Alter an existing data source.
+/alter/directory
+Alter an existing directory in KiFS.
+/alter/environment
+Alter an existing UDF environment.
+/alter/resourcegroup
+Alter an existing resource group.
+/alter/role
+Alter a Role.
+/alter/schema
+Alter a SQL-style schema.
+/alter/system/properties
+Alter system configuration.
+/alter/table
+Modify various properties of a table or view.
+/alter/table/columns
+Modify various properties of multiple columns in a table (multiple alter/table requests for columns).
+/alter/table/metadata
+Alter metadata for tables.
+/alter/tablemonitor
+Alter an existing table monitor.
+/alter/tier
+Alter an existing tier.
+/alter/user
+Alter a user.
+/alter/video
+Alter a video.
+/alter/wal
+Alters table write-ahead log (WAL) settings.
+/append/records
+Append records from a source table to a target table based on the field map.
+/check/table
+Shows information relating corrupt table entries.
+/clear/statistics
+Clears statistics for column(s) in a table.
+/clear/table
+Delete a table.
+/clear/tablemonitor
+Deactivate a table monitor.
+/clear/tables
+Delete tables.
+/clear/trigger
+Delete a trigger.
+/collect/statistics
+Collect statistics on a column.
+/create/backup
+Create a database backup.
+/create/catalog
+Create a catalog.
+/create/credential
+Create a new credential.
+/create/datasink
+Create a data sink.
+/create/datasource
+Create a data source.
+/create/directory
+Create a directory in KiFS.
+/create/environment
+Create a UDF environment.
+/create/graph
+Create a new graph network.
+/create/job
+Create a new job to be executed asynchronously.
+/create/jointable
+Create a table that is the result of a SQL JOIN.
+/create/materializedview
+Begin the creation a materialized view.
+/create/proc
+Create a proc.
+/create/projection
+Create a projection of an existing table.
+/create/resourcegroup
+Create a new resource group.
+/create/role
+Create a new role.
+/create/schema
+Create a SQL-style schema.
+/create/table
+Create a new table.
+/create/table/external
+Create a new external table.
+/create/tablemonitor
+Create a table monitor that will watch for and queue any records added.
+/create/trigger/byarea
+Create a table trigger for new records falling within a 2-D boundary.
+/create/trigger/byrange
+Create a table trigger for new records falling within a 1-D range.
+/create/type
+Create a table record type.
+/create/union
+Create a table that is the merge of one or more tables.
+/create/user/external
+Create a new external user.
+/create/user/internal
+Create a new internal user.
+/create/video
+Create a video.
+/delete/directory
+Delete a directory from KiFS.
+/delete/files
+Delete one or more files from KiFS.
+/delete/graph
+Deletes a graph.
+/delete/proc
+Delete a proc.
+/delete/records
+Delete matching records from a dataset.
+/delete/resourcegroup
+Deletes a resource group.
+/delete/role
+Delete an existing role.
+/delete/user
+Delete an existing user.
+/download/files
+Download one or more files from KiFS.
+/drop/backup
+Deletes a database backup.
+/drop/catalog
+Drop an existing catalog.
+/drop/credential
+Drop an existing credential.
+/drop/datasink
+Drop an existing data sink.
+/drop/datasource
+Drop an existing data source.
+/drop/environment
+Drop an existing UDF environment.
+/drop/schema
+Drop an existing SQL-style schema.
+/execute/proc
+Execute a proc.
+/execute/sql
+Execute a SQL statement (query, DML, or DDL).
+/export/query/metrics
+Export query metrics to a given destination.
+/export/records/tofiles
+Export records from table.
+/export/records/totable
+Exports records from source table to the specified target table in an external database.
+/filter
+Filter a dataset for records matching an expression.
+/filter/byarea
+Filter a dataset for records falling within a 2-D polygon's boundary.
+/filter/byarea/geometry
+Filter a dataset for geospatial geometry objects intersecting a 2-D polygon.
+/filter/bybox
+Filter a dataset for records within a rectangle's boundary.
+/filter/bybox/geometry
+Filter a dataset for geospatial geometry objects intersecting a rectangle's boundary.
+/filter/bygeometry
+Filter a dataset for records in relation to a given WKT geometry's boundary.
+/filter/bylist
+Filter a dataset for records with specific column values.
+/filter/byradius
+Filter a dataset for records within a circle's boundary.
+/filter/byradius/geometry
+Filter a dataset for geospatial geometry objects intersecting a circle's boundary.
+/filter/byrange
+Filter a dataset for records within a 1-D range.
+/filter/byseries
+Filter a dataset for records within a track's space/time boundary.
+/filter/bystring
+Filter a dataset for records with matching column text values.
+/filter/bytable
+Filter a dataset for records with column values matching another table's column values.
+/filter/byvalue
+Filter a dataset for records matching a specific value.
+/get/graph/entities
+Retrieve graph nodes or edges.
+/get/job
+Get the status and result of asynchronously running job.
+/get/records
+Retrieve records from a table with optional filtering and sorting.
+/get/records/bycolumn
+Retrieve the values of the given columns within a specified range.
+/get/records/byseries
+Retrieve the complete series/track records from partial track information.
+/get/records/fromcollection
+[DEPRECATED] Retrieve records from a collection, optionally returning the record IDs.
+/get/records/json
+Get records in JSON format.
+/grant/permission
+Grant user or role the specified permission on the specified object.
+/grant/permission/credential
+Grant a credential-level permission to a user or role.
+/grant/permission/datasource
+Grant a data source permission to a user or role.
+/grant/permission/directory
+Grant a KiFS directory-level permission to a user or role.
+/grant/permission/proc
+Grant a proc-level permission to a user or role.
+/grant/permission/system
+Grant a system-level permission to a user or role.
+/grant/permission/table
+Grant a table-level permission to a user or role.
+/grant/role
+Grant membership in a role to a user or role.
+/has/permission
+Check if user has specified permission on the specified object.
+/has/proc
+Check for existence of specified proc.
+/has/role
+Check if user has specified role.
+/has/schema
+Check for the existence of specified schema.
+/has/table
+Check for the existence of specified table.
+/has/type
+Check for the existence of specified type.
+/insert/records
+Add records to specified table.
+/insert/records/fromfiles
+Insert records from one or more files into the specified target table.
+/insert/records/frompayload
+Insert records from a text-based or binary payload into the specified target table.
+/insert/records/fromquery
+Insert records from external database from a given query into the specified target table.
+/insert/records/json
+Insert records in JSON format.
+/insert/records/random
+Generate random records and insert into specified table.
+/insert/symbol
+Add rendering symbol or icon to the database.
+/kill/proc
+Kill a running proc instance.
+/lock/table
+Set read or write locks on a table.
+/match/graph
+Match sample points to a graph.
+/modify/graph
+Update an existing graph network.
+/query/graph
+Queries an existing graph.
+/repartition/graph
+Rebalance existing partitioned graph network.
+/restore/backup
+Restores a backup.
+/revoke/permission
+Revoke from user or role the specified permission on the specified object.
+/revoke/permission/credential
+Revoke a credential-level permission from a user or role.
+/revoke/permission/datasource
+Revoke a data source permission from a user or role.
+/revoke/permission/directory
+Revoke a KiFS directory-level permission from a user or role.
+/revoke/permission/proc
+Revoke a proc-level permission from a user or role.
+/revoke/permission/system
+Revoke a system-level permission from a user or role.
+/revoke/permission/table
+Revoke a table-level permission from a user or role.
+/revoke/role
+Revoke membership in a role from a user or role.
+/show/backup
+Show information about backups.
+/show/credential
+Show information about a credential.
+/show/datasink
+Show information about a data sinks.
+/show/datasource
+Show information about a data source.
+/show/directories
+Show information about directories in KiFS.
+/show/environment
+Show information about a environment.
+/show/files
+Show information about files in KiFS.
+/show/graph
+Show information about graphs.
+/show/proc
+Show information about a proc.
+/show/proc/status
+Show the statuses of running or completed proc instances.
+/show/resource/objects
+Shows information relating to resource objects.
+/show/resource/statistics
+Show statistics for tier and resource groups.
+/show/resourcegroups
+Shows information relating to resource groups.
+/show/schema
+Show information about a single SQL-style schema or all schemas.
+/show/security
+Show security information relating to users and/or roles.
+/show/sql/proc
+Show information about a SQL Procedure.
+/show/statistics
+Show collected statistics for the specified table.
+/show/system/properties
+Show the server configuration and version information.
+/show/system/status
+Show server configuration and health status.
+/show/system/timing
+Show the last 100 requests, the request timing, and internal job ID.
+/show/table
+Show information about tables, views, or schemas.
+/show/table/metadata
+Show metadata for the specified table.
+/show/tablemonitors
+Show information about table monitors.
+/show/tables/bytype
+Show table names of specified type.
+/show/triggers
+Show information for specified or all triggers.
+/show/types
+Show information for specified types.
+/show/video
+Retrieve information about rendered videos.
+/show/wal
+Shows information relating to table write-ahead log (WAL) entries.
+/solve/graph
+Solves an existing graph.
+/update/records
+Perform predicate-based updates to table data.
+/upload/files
+Upload one or more files to KiFS.
+/upload/files/fromurl
+Upload one or more files to KiFS from a URL list.
+/verify/backup
+Shows detailed information about corrupt backups.
+/visualize/image/chart
+Draw a chart from specified tables and return it as an image.
+/visualize/isochrone
+Draw isolines for travel results.
+/vts
+VTS capability.
+/wms
+WMS capability.

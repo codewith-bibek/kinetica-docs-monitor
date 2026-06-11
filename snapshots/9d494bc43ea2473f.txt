@@ -1,0 +1,39 @@
+Kinetica Enterprise Documentation
+Get up and running with the Kinetica database
+Kinetica is a scalable database for real-time analysis on large and streaming
+datasets. Kinetica's vectorized processing delivers faster analytics than
+traditional databases, with the flexibility and ease of use of a relational database.
+Learn More
+Quick Start Guide
+Follow our quick start guide for step-by-step instructions to learn how
+Kinetica transforms the database experience.
+Start now
+Explore Kinetica
+Installation
+Load Data
+SQL
+Location Intelligence
+Graph
+Machine Learning
+Visualization
+Security
+Kinetica University
+Ready to learn more? We believe that the best way to experience the
+speed, functionality, and performance of Kinetica is to try it out on your
+own. Check out some of our example workbooks in Kinetica Cloud or our
+Developer Edition.
+Resources:
+Example workbooks (
+GitHub
+)
+Free
+Kinetica Cloud
+Free
+Developer Edition
+Learn More
+Subscribe for Updates
+Get notified when new releases become available, and have feature highlights
+delivered right to your inbox.
+Unsubscribe at any time. Read our
+Privacy Policy
+.
