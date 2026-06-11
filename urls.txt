@@ -1,0 +1,9 @@
+# Kinetica docs watchlist — one URL per line.
+# Lines starting with # are ignored. Add/remove pages freely.
+# Replace these examples with the actual pages your team builds tests against.
+
+https://docs.kinetica.com/7.2/
+https://docs.kinetica.com/7.2/sql/query/
+https://docs.kinetica.com/7.2/api/
+https://docs.kinetica.com/7.2/api/rest/
+https://docs.kinetica.com/7.2/security/
